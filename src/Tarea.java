@@ -32,6 +32,6 @@ public class Tarea {
 
     @Override
     public String toString() {
-        return "[" + (completada ? "✓" : " ") + "] " + descripcion;
+        return "[" + (completada ? "Completada" : " ") + "] " + descripcion;
     }
 }
