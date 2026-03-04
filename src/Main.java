@@ -12,7 +12,7 @@ public class Main {
                 case 1:
                     System.out.print("Introduce la descripción de la tarea: ");
                     String descripcion = sc.nextLine();
-                    gestor.añadirTarea(descripcion);
+                    gestor.anadirTarea(descripcion);
                     break;
                 case 2:
                     gestor.mostrarTareas();
@@ -25,9 +25,10 @@ public class Main {
                     System.out.println("Opción no válida. Intente nuevamente.");
             }
         } while (opcion != 3);
-
+        sc.close();
     }
-    public static void mostrarMenu(){
+
+    public static void mostrarMenu() {
 
         System.out.println("\n--- Gestor de Tareas ---");
         System.out.println("1. Agregar tarea");
