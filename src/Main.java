@@ -10,10 +10,19 @@ public class Main {
             mostrarMenu();
             switch (opcion) {
                 case 1:
+<<<<<<< HEAD
 
                     break;
                 case 2:
                     gestor.mostrarTareas();
+=======
+                    System.out.print("Introduce la descripción de la tarea: ");
+                    String descripcion = sc.nextLine();
+                    gestor.añadirTarea(descripcion);
+                    break;
+                case 2:
+
+>>>>>>> 4cc4005e5e23d3819a67dabae407cb2dbf684f8d
                     break;
                 case 3:
                     System.out.println("Saliendo del programa...");
